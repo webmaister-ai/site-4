@@ -1,28 +1,75 @@
 {
-  "name": "{{BUSINESS_NAME}}",
-  "phone": "{{BUSINESS_PHONE}}",
+  "name": "Michaels Værksted",
+  "slogan": "Tilfredse kunder - vores stolthed",
+  "specialty": "Elbil-service og reparationer",
+  "phone": "+45 44 85 66 77",
+  "email": "kontakt@michaelsvaerksted.dk",
+  "cvr": "12345678",
   "address": {
-    "street": "{{BUSINESS_ADDRESS_STREET}}",
-    "city": "{{BUSINESS_ADDRESS_CITY}}",
-    "state": "{{BUSINESS_ADDRESS_STATE}}",
-    "zip": "{{BUSINESS_ADDRESS_ZIP}}",
-    "full": "{{BUSINESS_ADDRESS_FULL}}"
+    "street": "Elektrovej 42",
+    "city": "Kongens Lyngby",
+    "postalCode": "2800",
+    "country": "Danmark",
+    "full": "Elektrovej 42, 2800 Kongens Lyngby, Danmark"
   },
   "hours": {
-    "monday": "{{BUSINESS_HOURS_MONDAY}}",
-    "tuesday": "{{BUSINESS_HOURS_TUESDAY}}", 
-    "wednesday": "{{BUSINESS_HOURS_WEDNESDAY}}",
-    "thursday": "{{BUSINESS_HOURS_THURSDAY}}",
-    "friday": "{{BUSINESS_HOURS_FRIDAY}}",
-    "saturday": "{{BUSINESS_HOURS_SATURDAY}}",
-    "sunday": "{{BUSINESS_HOURS_SUNDAY}}",
-    "weekdays": "{{BUSINESS_HOURS_WEEKDAYS_DISPLAY}}",
-    "weekend": "{{BUSINESS_HOURS_WEEKEND_DISPLAY}}"
+    "monday": "07:30 - 16:00",
+    "tuesday": "07:30 - 16:00",
+    "wednesday": "07:30 - 16:00",
+    "thursday": "07:30 - 16:00",
+    "friday": "07:30 - 15:00",
+    "saturday": "08:00 - 13:00",
+    "sunday": "Lukket",
+    "weekdaysDisplay": "Mandag - Torsdag: 07:30 - 16:00",
+    "fridayDisplay": "Fredag: 07:30 - 15:00",
+    "weekendDisplay": "Lørdag: 08:00 - 13:00, Søndag: Lukket",
+    "note": "Ring gerne for aftale udenfor normal åbningstid"
   },
-  "email": "{{BUSINESS_EMAIL}}",
   "social": {
-    "facebook": "{{BUSINESS_FACEBOOK_URL}}",
-    "instagram": "{{BUSINESS_INSTAGRAM_URL}}"
+    "facebook": "Michaels Værksted",
+    "instagram": "@michaelsvaerksted",
+    "linkedin": "Michaels Værksted ApS"
   },
-  "language": "{{SITE_LANGUAGE}}"
+  "about": "Michaels Værksted er en familiedrevet virksomhed, der har specialiseret sig i service og reparation af elektriske køretøjer siden 2018. Vi er stolte af vores høje niveau af kundetilfredshed og vores dybe ekspertise inden for EV-teknologi.",
+  "services": [
+    {
+      "name": "Batteridiagnostik og -service",
+      "description": "Grundig test og vedligeholdelse af EV-batterier"
+    },
+    {
+      "name": "Ladestation-installation",
+      "description": "Hjemme og erhverv ladestationer"
+    },
+    {
+      "name": "Software-opdateringer",
+      "description": "OTA-opdateringer og fejlretning"
+    },
+    {
+      "name": "Preventiv service",
+      "description": "Regelmæssig vedligeholdelse for optimal ydeevne"
+    },
+    {
+      "name": "Akut-service",
+      "description": "24/7 assistance ved nedbrud"
+    },
+    {
+      "name": "Garantireparationer",
+      "description": "Autoriseret værksted for flere mærker"
+    }
+  ],
+  "whyChooseUs": [
+    "Specialiseret ekspertise: 100% fokus på elektriske køretøjer",
+    "Certificerede teknikere: Uddannet af førende EV-producenter",
+    "Moderne udstyr: Investering i den nyeste teknologi",
+    "Troværdig service: Over 500 tilfredse kunder",
+    "Transparent prissætning: Ingen skjulte omkostninger",
+    "Miljøbevidst: Bæredygtig tilgang til transport"
+  ],
+  "colors": {
+    "primary": "#1e3a8a",
+    "secondary": "#64748b", 
+    "accent": "#3b82f6",
+    "background": "#ffffff"
+  },
+  "language": "da"
 }
